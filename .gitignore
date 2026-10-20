@@ -1,0 +1,10 @@
+
+# local secrets and run artifacts
+.env
+!.env.example
+MLflow/mlflow.db
+MLflow/mlruns/
+*request_response_log*.txt
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
